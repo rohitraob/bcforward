@@ -1,0 +1,240 @@
+body{
+    font-size:22px;
+}
+
+.right_shadow{
+    box-shadow: 0.15rem 0 1.75rem 0 rgba(31, 45, 65, 0.15);
+}
+
+.topnav{    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+
+    svg{
+        height:22px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .dropdown-user{
+        img{
+            border-radius: 50px;
+            max-width: 50%;
+        }
+}
+}
+
+
+
+#layout{
+    display: flex;
+
+    .layout_left{
+        width: 15rem;
+        height: 100vh;
+        z-index: 8;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #fff;
+        .side_nav{
+          
+            color: #1f2d41;
+            padding-top: 3.625rem;
+
+            .side_menu_heading{
+                padding: 1.75rem 1rem 0.75rem;
+                font-size: 0.7rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: #a2acba;
+            }
+
+            a.nav_link{
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                line-height: normal;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                position: relative;
+                color: #1f2d41;
+                padding: 0.5rem 1rem;
+                font-size:0.9rem;
+                font-weight: 600;
+
+                &:hover{
+                    cursor: pointer;
+                    color: #0061f2;
+                }
+
+                .nav_link_icon {
+                    margin-right: 0.5rem;
+                    color: #333;
+                    width: 20px;
+                }
+            }
+        }
+        .sidenav_menu{
+            overflow-y: auto;
+        }
+
+        .sidenav_footer {
+            background-color: #f4f4f5;
+            display: flex;
+            flex-shrink: 0;
+            -webkit-box-align: center;
+            align-items: center;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            height: 5rem;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+
+            .sidenav_footer_content {
+                font-size: 0.9rem;
+            }
+
+            .sidenav_footer_subtitle {
+                font-size: 0.75rem;
+            }
+
+            .sidenav_footer_title {
+                font-weight: 500;
+            }
+        }
+    }
+
+
+    .layout_right{
+        padding-left: 15rem;
+        top: 3.625rem;
+        width: 85rem;
+        background: #f7f7f7;
+        .bg-gradient-primary-to-secondary {
+            background-color: #0061f2;
+            background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+        }
+
+        .page_header_content{
+            padding-top: 7rem;
+            padding-bottom: 5rem;
+
+            .page_header_title{
+                color: #fff;
+            }
+            .page_header_subtitle {
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+
+}
+.margin_top{
+    margin-top:-5%;
+
+}
+
+.content_boxs {
+    // background: #f7f7f7;
+}
+
+.table_shadow{
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+
+    .card-header{
+        color: #0061f2;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+}
+h5.card-title{
+    font-size: 1.2rem;
+    color: #0061f2;
+}
+
+
+.datatable {
+    font-size: 0.85rem;
+}
+
+.form-control-solid {
+    background-color: #ecf0f6;
+    border-color: #ecf0f6;
+}
+.navbar-light .navbar-brand{
+    font-weight: 600;
+}
+
+.form_example{
+    font-size: 0.85rem; 
+}
+
+#dataTable_wrapper{
+    .custom-select{
+        width: auto;
+        display: inline-block;
+    }
+    .dataTables_filter {
+        text-align: right;
+    }
+    #dataTable_paginate{
+        text-align: right;
+        float: right;
+    }
+}
+.slider_link{
+    .btn-sm{
+        font-size: 0.7rem;
+    }
+}
+
+.form_details{
+
+    .form-group{
+            display: block;
+            width:19%;
+        .label_input{
+                font-size: 0.8rem;
+                justify-content: left;
+                font-weight: 500;
+        }
+        select, input{
+            width:80%;
+            height: calc(1.5em + .5rem + 2px);
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6900c7;
+}
+.custom_links{
+    margin-top: 5px;
+
+    a{
+        font-size: 0.8rem;
+        color:#007bff;
+        text-decoration: none;
+        margin-right: 8px;
+        font-weight: 500;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+ 
