@@ -137,10 +137,12 @@ body {
 
 #layout .layout_right .page_header_content .page_header_title {
   color: #fff;
+  font-size: 2rem;
 }
 
 #layout .layout_right .page_header_content .page_header_subtitle {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
 }
 
 .margin_top {
@@ -152,15 +154,15 @@ body {
           box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
 }
 
-.table_shadow .card-header {
+.card .card-header {
   color: #0061f2;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h5.card-title {
   font-size: 1.2rem;
-  color: #0061f2;
+  color: #1d1e20;
 }
 
 .datatable {
@@ -201,10 +203,11 @@ h5.card-title {
 .form_details .form-group {
   display: block;
   width: 19%;
+  position: relative;
 }
 
 .form_details .form-group .label_input {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
@@ -236,5 +239,28 @@ h5.card-title {
 
 .custom_links a:hover {
   text-decoration: underline;
+}
+
+span.error {
+  position: absolute;
+  line-height: 1.2;
+  margin-bottom: 15.1%;
+  bottom: 0;
+  color: #fff;
+  font-size: 0.7rem;
+  border: 1px solid #d9481b;
+  padding: 8px 12px;
+  left: 0px;
+  background-color: #d9481b;
+  max-width: 100%;
+}
+
+span.error:before {
+  position: absolute;
+  border: 9px solid transparent;
+  border-top: 9px solid #d9481b;
+  content: "";
+  left: 20px;
+  bottom: -18px;
 }
 /*# sourceMappingURL=styles.css.map */
